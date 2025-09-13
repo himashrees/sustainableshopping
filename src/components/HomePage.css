@@ -1,0 +1,591 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link svg {
+  margin-right: 5px;
+}
+
+/* Auth Icons */
+.auth-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-icon:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+
+.auth-icon svg {
+  margin-right: 5px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link svg {
+  margin-right: 5px;
+}
+
+/* Auth Icons */
+.auth-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-icon:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+
+.auth-icon svg {
+  margin-right: 5px;
+}
+
+/* Slider Section */
+.slider {
+  position: relative;
+  max-width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.slide-image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Dot Indicators */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.dot:hover {
+  background-color: #0056b3;
+}
+
+/* Dot Indicators */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.dot:hover {
+  background-color: #0056b3;
+}
+.slide-media {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  border: none;
+}
+
+iframe.slide-media {
+  height: 500px;
+}
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.nav-links a,
+.auth-icons a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.auth-icons a:hover {
+  color: #f39c12;
+}
+
+/* Impact Section */
+.impact-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.impact-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.impact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+/* Individual Impact Card */
+.impact-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.impact-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.impact-icon:hover {
+  transform: scale(1.1);
+}
+
+.impact-card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.impact-card p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Read More Link */
+.read-more-link {
+  font-size: 18px;
+  color: #007bff;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #0056b3;
+}
+
+/* Impact Details */
+.impact-details {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.impact-details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.impact-details p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* Quiz Section Styling */
+.quiz-prompt {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 40px 0;
+  transition: all 0.3s ease;
+}
+
+/* Quiz Prompt Heading */
+.quiz-prompt h2 {
+  font-size: 28px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+/* Quiz Prompt Text */
+.quiz-prompt p {
+  font-size: 18px;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Start Quiz Button */
+.start-quiz-button {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Start Quiz Button Hover Effect */
+.start-quiz-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-5px);
+}
+
+.start-quiz-button:active {
+  transform: translateY(1px);  /* Slight press effect */
+}
+
+/* Quiz Component Styling */
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.quiz-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Quiz Question Styling */
+.quiz-question {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Quiz Answer Options */
+.quiz-options {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quiz-options li {
+  background-color: #f2f2f2;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.quiz-options li:hover {
+  background-color: #3498db;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.quiz-options li:active {
+  transform: translateY(1px); /* Slight press effect */
+}
+
+/* Quiz Answer Feedback */
+.quiz-feedback {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Correct Answer Feedback */
+.correct-answer {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+/* Incorrect Answer Feedback */
+.incorrect-answer {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Quiz Button - Next Question */
+.quiz-button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Quiz Button Hover Effect */
+.quiz-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-5px);
+}
+
+.quiz-button:active {
+  transform: translateY(1px);  /* Slight press effect */
+}
+
+/* Result Section Styling */
+.quiz-result {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.quiz-result h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.quiz-result p {
+  font-size: 18px;
+  color: #555;
+}
+
+.quiz-result button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Quiz Result Button Hover Effect */
+.quiz-result button:hover {
+  background-color: #c0392b;
+  transform: translateY(-3px);
+}
+
+.quiz-result button:active {
+  transform: translateY(1px);
+}
+
+.blogs-section {
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
+
+.blogs-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 48%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 1rem;
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.read-more-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}

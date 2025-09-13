@@ -1,0 +1,260 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f7;  /* Light background color */
+  }
+  
+  /* Login Form Container */
+  .form {
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Form Heading */
+  .form h2 {
+    font-size: 30px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  
+  /* Input Fields */
+  .input-container input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;  /* Light background */
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  /* Target Email and Password Fields Specifically */
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;  /* Light background */
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focus Effect for Input Fields */
+  .input-container input:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #3498db;  /* Blue border on focus */
+    background-color: #ffffff;  /* White background */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);  /* Subtle blue shadow */
+    outline: none;
+  }
+  
+  /* Error Message */
+  .error {
+    color: #e74c3c;  /* Red for errors */
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Success Message Styling */
+  .success {
+    background-color: #2ecc71;  /* Green for success */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    animation: popIn 0.8s ease-out;
+  }
+  
+  /* Forgot Password Button */
+  button[type='button'] {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Forgot Password Button Hover Effect */
+  button[type='button']:hover {
+    background-color: #e67e22;
+    transform: translateY(-3px);
+  }
+  
+  button[type='button']:active {
+    transform: translateY(1px);  /* Slight press effect */
+  }
+  
+  /* Submit Button Styling */
+  button[type='submit'] {
+    background-color: #3498db;  /* Blue background */
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Submit Button Hover Effect */
+  button[type='submit']:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px);
+  }
+  
+  button[type='submit']:active {
+    transform: translateY(2px);  /* Slight press effect */
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .modal form {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .modal h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    color: #333;
+  }
+  
+  .modal input:focus {
+    border-color: #3498db;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+    outline: none;
+  }
+  
+  .modal button[type='submit'] {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Modal Close Button */
+  .modal button[type='button'] {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .modal button[type='button']:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Pop-In Animation for Success Message */
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Fade-In Animation for Form */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .form h2 {
+      font-size: 24px;
+    }
+  
+    .modal form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .modal h2 {
+      font-size: 20px;
+    }
+  }

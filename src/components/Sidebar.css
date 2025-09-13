@@ -1,0 +1,28 @@
+.sidebar {
+    background-color: #2e3a47;
+    color: white;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .photo-slider {
+    margin-bottom: 20px;
+  }
+  
+  .menu li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li:hover {
+    background-color: #1e282e;
+  }
+  

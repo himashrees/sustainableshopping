@@ -1,0 +1,99 @@
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Announcement Bar Styles */
+  .announcement-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #f7b500;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .announcement-text {
+    flex-grow: 1;
+  }
+  
+  .announcement-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .announcement-bar:hover {
+    background-color: #f1a800;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px; /* Ensures logo is below the announcement bar */
+    gap: 10px; /* Space between icon and text */
+  }
+  
+  .leaf-icon {
+    font-size: 2rem;
+    color: #f7b500;
+    animation: leaf-pulse 2s infinite;
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    background: linear-gradient(to right, #f7b500, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap; /* Prevents wrapping */
+  }
+  
+  /* Animation for the leaf icon */
+  @keyframes leaf-pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .logo h1 {
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+  
+    .leaf-icon {
+      font-size: 1.8rem;
+    }
+  }
+  
